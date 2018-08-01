@@ -144,13 +144,13 @@ $("#QuiverIcon").mousedown(function(event){
             break;
     }
     	if(Quiver < 1){
-    		this.src = "Images/Quiver.png";
+    		this.src = "images/Quiver.png";
     	}
 		if(Quiver == 1){
-			this.src = "Images/BigQuiver.png";
+			this.src = "images/BigQuiver.png";
 		}
 		if(Quiver >= 2){
-			this.src = "Images/GiantQuiver.png";
+			this.src = "images/GiantQuiver.png";
 			Quiver = 2;
 		}
 	});
@@ -165,13 +165,13 @@ $("#WalletIcon").mousedown(function(event){
             break;
     }
     	if(Wallet < 1){
-    		this.src = "Images/Wallet.png";
+    		this.src = "images/Wallet.png";
     	}
 		if(Wallet == 1){
-			this.src = "Images/BigWallet.png";
+			this.src = "images/BigWallet.png";
 		}
 		if(Wallet >= 2){
-			this.src = "Images/GiantWallet.png";
+			this.src = "images/GiantWallet.png";
 			Wallet = 2;
 		}
 	});
@@ -180,10 +180,10 @@ $("#WalletIcon").mousedown(function(event){
 $("#OSwordIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/OrdonSword.png";
+            this.src = "images/OrdonSword.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
@@ -191,10 +191,10 @@ $("#OSwordIcon").mousedown(function(event){
 $("#MSwordIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/MasterSword.png";
+            this.src = "images/MasterSword.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
@@ -202,10 +202,10 @@ $("#MSwordIcon").mousedown(function(event){
 $("#OShieldIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/OrdonShield.png";
+            this.src = "images/OrdonShield.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
@@ -213,10 +213,10 @@ $("#OShieldIcon").mousedown(function(event){
 $("#HShieldIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/HylianShield.png";
+            this.src = "images/HylianShield.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
@@ -224,10 +224,10 @@ $("#HShieldIcon").mousedown(function(event){
 $("#HTunicIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/HeroTunic.png";
+            this.src = "images/HeroTunic.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
@@ -235,10 +235,10 @@ $("#HTunicIcon").mousedown(function(event){
 $("#ZArmorIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/ZoraArmor.png";
+            this.src = "images/ZoraArmor.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
@@ -246,10 +246,10 @@ $("#ZArmorIcon").mousedown(function(event){
 $("#MArmorIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/MagicArmor.png";
+            this.src = "images/MagicArmor.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
@@ -257,10 +257,10 @@ $("#MArmorIcon").mousedown(function(event){
 $("#ScentIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/Scent.png";
+            this.src = "images/Scent.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
@@ -269,10 +269,10 @@ $("#ScentIcon").mousedown(function(event){
 $("#HCIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/HorseCall.png";
+            this.src = "images/HorseCall.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
@@ -280,10 +280,10 @@ $("#HCIcon").mousedown(function(event){
 $("#HawkeyeIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/Hawkeye.png";
+            this.src = "images/Hawkeye.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
@@ -291,10 +291,10 @@ $("#HawkeyeIcon").mousedown(function(event){
 $("#EarringIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/CoralEarring.png";
+            this.src = "images/CoralEarring.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
@@ -302,10 +302,10 @@ $("#EarringIcon").mousedown(function(event){
 $("#BookIcon").mousedown(function(event){
     switch (event.which) {
         case 1:
-            this.src = "Images/Skybook.png";
+            this.src = "images/Skybook.png";
             break;
         case 3:
-            this.src = "Images/Blank.png";
+            this.src = "images/Blank.png";
             break;
     }
 	});
